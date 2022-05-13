@@ -1,0 +1,27 @@
+main {
+  padding: 60px 30px;
+  background-image: url(./images/react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position: right 75%;
+}
+
+main > h1 {
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 45px;
+}
+
+main > ul > li {
+  line-height: 19px;
+  color: #FFFFFF;
+  padding-block: 10px;
+}
+
+main > ul > li::marker {
+  color: #61DAFB;;
+  font-size: 1.4rem;
+}

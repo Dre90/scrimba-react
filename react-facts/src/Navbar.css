@@ -1,0 +1,39 @@
+nav {
+  background: #21222A;
+  height: 90px;
+  width: 100%;
+  padding: 30px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > .logo {
+  display: flex;
+  align-items: center;
+}
+
+nav > .logo > .logo-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 6px;
+}
+
+nav > .logo > .logo-text {
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 22.2535px;
+  line-height: 27px;
+  letter-spacing: -0.05em;
+  margin: 0;
+}
+
+nav > h4 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+
+  color: #DEEBF8;
+  margin: 0;
+}
